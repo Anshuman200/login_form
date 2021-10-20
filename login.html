@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="logo.jpg" type="image/x-icon" sizes="16x16 32x32">
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="#index">Home</a>
+        <a href="https://timesofindia.com/">News</a>
+        <a href="contact.html">Contact</a>
+        <a href="about">About</a>
+        <div style="float: right; margin-right: 20px;">
+            <input type="search" id="search" value=Search style="margin-top:10px;height: 30px;">
+            <i class="fa fa-search" style="color: white;"></i>
+            <a href="#">Login</a>
+        </div>
+    </div>
+
+    <!--Login form -->
+
+    <div id="form_body">
+        <div id="login_title">
+            <h2>Login</h2>
+            <h4>Welcome to our CMSsystem</h4>
+        </div>
+
+        <div id="input_details">
+            <div>
+                <label for='email' class='input_label'>email</label>
+            </div>
+            <div class="input_box">
+                <span>
+                    <i class='fa fa-envelope-o'></i>
+                </span>
+
+                <span>
+                    <input type='email' id='email' name='email'>
+                </span>
+            </div>
+            <div>
+                <label for="pass" class="input_label">Password</label>
+            </div>
+            <div class="input_box">
+                <span>
+                    <i class='fa fa-key'></i>
+                </span>
+
+                <span>
+                    <input type='password' id='password' name='password'>
+                </span>
+            </div>
+            <button class="submit_box">Login</button>
+        </div>
+    </div>
+</body>
+
+</html>
